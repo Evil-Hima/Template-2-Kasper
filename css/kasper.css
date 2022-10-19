@@ -241,7 +241,8 @@ header nav i {
         display: none;
     }
 
-    .toggle:hover+ul {
+    .toggle:hover+ul ,
+    .toggle + ul:hover{
         display: flex;
         flex-flow: column;
         position: absolute;
